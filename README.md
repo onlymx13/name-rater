@@ -1,2 +1,2 @@
 # name-rater
-Rates your name
+Rates your name. Credit to David Bau for the PRNG code.
