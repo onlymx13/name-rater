@@ -248,6 +248,6 @@ if ((typeof module) == 'object' && module.exports) {
   [],     // pool: entropy pool starts empty
   Math    // math: package containing random, pow, and seedrandom
 );
-
+var name = prompt("What's your name?");
 Math.seedrandom(name);
-console.log("This name is in the " + Math.random() * 100 + " percentile.");
+document.getElementById('output').innerHTML = "This name is in the " + Math.random() * 100 + " percentile.";
